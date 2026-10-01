@@ -1,20 +1,21 @@
 :root{--ink:#101211;--ink-2:#191d19;--ink-3:#272d27;--red:#8bd000;--red-2:#a4e523;--red-glow:rgba(139,208,0,.3);--brand-lt:#a4e523;--brand-deep:#466900;--brand-dk:#466900;--stone:#d7dad7;--stone-2:#eef0ee;--sand:#fafbfa;--muted:#bcc2bc;--muted-d:#535b53;--on-amber:#101211;--radius:8px;--radius-s:6px}
 .brand-logo{width:210px!important;height:auto!important;object-fit:contain}
 .brand-logo,.hero-logo{filter:none!important}
-.site-header,.site-header.scrolled{background:rgba(255,255,255,.96)}
-.nav a,.header-phone{color:#101211}
-.nav a:hover,.nav a.active{color:#466900}
-.burger span{background:#101211}
+.site-header,.site-header.scrolled{background:rgba(16,18,17,.94)}
+.nav a,.header-phone{color:#fff}
+.nav a:hover,.nav a.active{color:#8bd000}
+.burger span{background:#fff}
 .hero{color:#fff}
-.hero .scrim{display:none;background:none}
+.hero .scrim{display:block;background:rgba(16,18,17,.28)}
 .hero-tag,.hero-sub,.hero-tag .dot,.hero .scroll-cue{color:#fff!important;text-shadow:0 2px 5px #000,0 0 16px #000}
 .hero .btn.ghost{color:#fff;border-color:#fff;background:#10121180}
 .hero .scroll-cue .line{background:#fff}
-.site-footer{background:#f1f3f1;color:#101211}
-.foot-col p,.foot-col a,.foot-contact,.foot-bottom{color:#414941!important}
-.foot-bottom{border-top-color:#cdd3cd}
-.site-footer h4{color:#101211}
-.hero-logo{width:min(400px,72%)!important;height:auto!important;max-height:none!important;filter:drop-shadow(0 0 2px #fff) drop-shadow(0 0 8px #ffffffa0)!important}
+.site-footer{background:#101211;color:#fff}
+.foot-col p,.foot-col a,.foot-contact,.foot-bottom{color:#c6cec6!important}
+.foot-col a:hover{color:#8bd000!important}
+.foot-bottom{border-top-color:#ffffff24}
+.site-footer h4{color:#8bd000}
+.hero-logo{width:min(400px,72%)!important;height:auto!important;max-height:none!important;filter:drop-shadow(0 2px 8px #0006)!important}
 .site-header .bar{padding-left:24px;padding-right:24px}
 .hero{height:92svh;min-height:650px}
 .hero .container{padding-top:120px;padding-bottom:85px}
@@ -51,8 +52,11 @@
 .contact-list .row{display:flex;align-items:flex-start;gap:16px}
 .contact-list .ic{width:42px;height:42px;background:#8bd000;color:#101211;display:grid;place-items:center;flex:none;border-radius:6px}
 .contact-list b,.contact-list a,.contact-list span{display:block}
-.quote-form{padding:32px;background:white;border:1px solid #d7dad7;border-radius:8px}
-.quote-form h3{margin-bottom:24px;font-family:var(--head);font-size:1.5rem}
+.on-dark .contact-list a,.on-dark .contact-list span{color:#c6cec6}
+.on-dark .contact-list a:hover{color:#8bd000}
+#contact.on-dark{background:#232b25}
+.quote-form{padding:32px;background:white;color:#101211;border:1px solid #d7dad7;border-radius:8px}
+.quote-form h3,.on-dark .quote-form h3{margin-bottom:24px;font-family:var(--head);font-size:1.5rem;color:#101211}
 .quote-form .fld{margin-bottom:18px}
 .quote-form label{display:block;font-size:.85rem;font-weight:600;margin-bottom:6px}
 .quote-form input,.quote-form select,.quote-form textarea{width:100%;padding:12px;border:1px solid #b8c0b8;border-radius:4px;font:inherit;background:#fafbfa;min-width:0}
